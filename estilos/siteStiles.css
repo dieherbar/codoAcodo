@@ -1,13 +1,18 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-size: 12px;
+}
 body{
     background-color: #F0F2F5/*#FAF9F5;*/
 }
-#header{
-    font-family: Helvetica, Arial,  sans-serif;
-    font-weight: 700;
-    font-size: large;
-    text-align: center;
-    color: #2c2c2c;
-    line-height: 37px;
+.header{
+  font-size: 3rem;
+  font-family: Helvetica, Arial,  sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #2c2c2c;
+  line-height: 37px;
 	text-shadow: 1px 1px 2px #3dfe02; 
 }
 #menu{
@@ -21,7 +26,8 @@ body{
 }
 h2{
     font-family: Helvetica, Arial,  sans-serif;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 500;
     color: #2c2c2c;
     line-height: 37px;
     letter-spacing: 1px;
@@ -39,7 +45,7 @@ p{
   border-radius: 5px;
   box-shadow: none;
   border-style: none;
-  font-size: 1.5rem ;
+  font-size: 2rem ;
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -48,9 +54,9 @@ p{
   color: white;
   border: none;
   border-radius: 6px;
-  font-size: 17px;
+  font-size: 1.5rem;
   line-height: 48px;
-  padding: 0 16px;
+  padding: 0 1.4rem;
   font-weight: bold;
 }
 /* .transition:hover{
@@ -145,6 +151,7 @@ p{
     background-color: #FFFFFF;
     width: 25%;
     border-radius: 10px;
+    box-shadow:  1em 0 0.4em #a1a1a1;
   }
   form{
     padding: 1em;
@@ -152,11 +159,11 @@ p{
   input{
     font: 1em sans-serif;
     width: 300px;
-    border-color: #000;
-    border-style: unset;
+    border-style: solid black;
   }
   label {
     /* Tamaño y alineación uniforme */
+    font-size: 1.4rem;
     display: flex;
     width: 120px;
     text-align: right;
@@ -179,8 +186,9 @@ p{
   }
   input:focus{
     /* Destacado adicional para elementos que tienen el cursor */
-    border-color: rgb(101, 155, 241);
-    border-width: 2px;
+    border-style: blue;
+    border-width: 12px;
+    color: #f00;
   }
   button:hover{
     background: radial-gradient(#e66465, #9198e5);
